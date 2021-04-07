@@ -6,7 +6,7 @@ public class Test {
 
     public static void main(String args[]) {
 
-        String secretName = "devhub/stage/app";
+        String secretName = "watchlist-private-service/stage/hmac";
         String region = "us-east-1";
         // Create a Secrets Manager client
         AWSSecretsManager client = AWSSecretsManagerClientBuilder.standard()
